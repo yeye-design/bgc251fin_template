@@ -2,18 +2,18 @@ const { Responsive, Scroll, Title, References } = P5jsTemplate;
 
 function setup() {
   Responsive.createResponsiveCanvas(
-    800,
-    600,
+    400,
+    200,
     '#canvas-container',
-    'fill',
-    false
+    'contain',
+    true
   );
   Scroll.init();
   Title.init('128번째 실험', '이예리', '2025');
   References.init([
     {
       title: 'What was Coding like 40 years ago?',
-      authors: ['Daniel Shiffman', 'iroun'],
+      authors: ['Daniel Shiffman'],
       year: '2022',
       publisher: 'The Coding Train - YouTube',
       url: 'https://www.youtube.com/watch?v=7r83N3c2kPw',
